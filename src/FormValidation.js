@@ -104,6 +104,7 @@ export const validate = (values) => {
   if (values.total.length == "") {
     errors.total = "total";
   }
+ 
   if (values.marchant == "") {
     errors.marchant = "marchant";
   }
