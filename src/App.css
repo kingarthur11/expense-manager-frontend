@@ -105,13 +105,7 @@ label {
   color: #242424;
   padding: 9px 0;
   border-radius: 5px;
-}/* 
-select {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  text-indent: 1px;
-  text-overflow: '';
-} */
+}
 .select-arrow {
   right: 10px;
   top: 8px;

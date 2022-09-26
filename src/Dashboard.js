@@ -22,7 +22,6 @@ function Dashboard() {
 
   const getData = async () => {
     let max, min;
-    // let status = paramsValue.new_val ? paramsValue.new_val : paramsValue.in_progress ? paramsValue.in_progress : paramsValue.reinburse ? paramsValue.reinburse : ""
     if (isNaN(Number(paramsValue.max))) {
       max = 0;
     } else {
@@ -115,7 +114,6 @@ function Dashboard() {
                   type="date"
                   placeholder=""
                 />
-                {/* <i className="date-arrow fa-regular fa-calendar-days position-absolute"></i> */}
               </div>
             </div>
             <div className="my-4">
